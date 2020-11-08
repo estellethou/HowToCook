@@ -62,8 +62,8 @@ php artisan serve
 php artisan ui vue —auth
 php artisan ui:auth
 ```
-In .env file change DB <name>, <username>, <password>
-In mySQL create a DB named <name> 
+In .env file change DB "name", "username", "password"
+In mySQL create a DB named "name" 
 
 
 ```bash
