@@ -59,7 +59,21 @@ Read composer.json and install all libraries
 
 ```bash
 php artisan serve
+php artisan ui vue —auth
+php artisan ui:auth
 ```
+In .env file change DB <name>, <username>, <password>
+In mySQL create a DB named <name> 
+
+
+```bash
+php artisan migrate
+yarn
+npm run dev
+php artisan storage:link  
+php artisan telescope:install  
+```
+ 
 Then open a browser with the url :
 
 ```http://127.0.0.1:8000/home/page0```
