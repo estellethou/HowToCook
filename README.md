@@ -55,10 +55,10 @@ Then open a browser with the url :
 ![homepage](image/home.png)
 
 ### Profile 
-![profile] (image/profile.png)
+![profile](image/profile.png)
 
 ### Admin page
-![admin] (image/admin.png)
+![admin](image/admin.png)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
