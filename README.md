@@ -10,19 +10,15 @@ It's a collaborative website where you can offer cooking classes for a fee or ju
 ## Installation
 
 #### Install PHP and Apache
-
 [macOS 11.0 Big Sur Apache Setup: Multiple PHP Versions](https://getgrav.org/blog/macos-bigsur-apache-multiple-php-versions)
 
 #### Install mySQL
-
 You also need to install ```mySQL``` : https://dev.mysql.com/doc/mysql-installation-excerpt/8.0/en/windows-install-archive.html
 
 #### Install composer
-
 ```brew install composer```
 
 #### Install library
-
 Read composer.json and install all libraries 
 ```npm install ```
 
@@ -30,22 +26,27 @@ Read composer.json and install all libraries
 
 ```bash
 php artisan serve
-php artisan ui vue —auth
-php artisan ui:auth
 ```
 In .env file change DB "name", "username", "password"
 In mySQL create a DB named "name" 
 
 ```bash
+php artisan telescope:install 
 php artisan migrate
 yarn
 npm run dev
-php artisan storage:link  
-php artisan telescope:install  
 ```
- 
-Then open a browser with the url :
 
+Go to /public and run 
+```
+rm storage
+```
+The go to root directory and run:
+```
+php artisan storage:link  
+```
+
+Then open a browser with the url :
 ```http://127.0.0.1:8000/home/page0```
 
 ## Contributing
