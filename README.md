@@ -49,6 +49,12 @@ php artisan storage:link
 Then open a browser with the url :
 ```http://127.0.0.1:8000/home/page0```
 
+## Presentation 
+
+###Home page 
+![homepage][image/home.png]
+
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
