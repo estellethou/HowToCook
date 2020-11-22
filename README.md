@@ -11,37 +11,7 @@ It's a collaborative website where you can offer cooking classes for a fee or ju
 
 #### Install PHP and Apache
 
-Download the latest PHP 5 ZIP package from www.php.net/downloads.php.
-Copy ```C:\php\php.ini-development``` to ```C:\php\php.ini```
-
-Define the extension directory:```extension_dir = "C:/php/ext"```. 
-
-Enable extensions: 
-```extension=mysql``` and ```extension=pdo_mysql```
-
-Configure PHP as an Apache module : 
-
-Ensure Apache is not running (use ```net stop  Apache2.2```from the command line and open its ```confhttpd.conf``` configuration file in an editor. The following lines should be changed:
-
-On line 239, add index.php as a default file name:
-
-```DirectoryIndex index.php index.html```
-
-At the bottom of the file, add the following lines (change the PHP file locations if necessary):
-
-```# PHP5 module```
-
-```LoadModule php5_module "c:/php/php5apache2_2.dll"```
-
-```AddType application/x-httpd-php .php```
-
-```PHPIniDir "C:/php"```
-
-Save the configuration file and test it from the command line (Start > Run > cmd):
-
-```cd Apache2bin```
-
-```httpd -t```
+[macOS 11.0 Big Sur Apache Setup: Multiple PHP Versions](https://getgrav.org/blog/macos-bigsur-apache-multiple-php-versions)
 
 #### Install mySQL
 
@@ -65,7 +35,6 @@ php artisan ui:auth
 ```
 In .env file change DB "name", "username", "password"
 In mySQL create a DB named "name" 
-
 
 ```bash
 php artisan migrate
