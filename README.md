@@ -54,6 +54,7 @@ You also need to install ```mySQL``` : https://dev.mysql.com/doc/mysql-installat
 #### Install library
 
 Read composer.json and install all libraries 
+```npm install ```
 
 ## Usage
 
@@ -83,3 +84,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Tutorial 
+Here is the tutorial on which I based my project [Laravel PHP Framework Tutorial - Full Course for Beginners (2019)](https://www.youtube.com/watch?v=ImtZ5yENzgE)
