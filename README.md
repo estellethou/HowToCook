@@ -52,7 +52,7 @@ Then open a browser with the url :
 ## Presentation 
 
 ### Home page 
-![homepage][image/home.png]
+![homepage](image/home.png)
 
 
 ## Contributing
