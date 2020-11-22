@@ -51,7 +51,7 @@ Then open a browser with the url :
 
 ## Presentation 
 
-###Home page 
+### Home page 
 ![homepage][image/home.png]
 
 
